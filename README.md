@@ -25,19 +25,30 @@ Descarga: https://git-scm.com
 
 _Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
 
-_Dí cómo será ese paso_
+_Clonar el repositorio de GitHub a tu ordenador_
 
 ``` 
-Da un ejemplo
+git clone https://github.com/ivnaguinaga/PR1.git
 ```
 
-_Y repite_
+_Creación fichero config.php_
 
 ```
-hasta finalizar
+En la carpeta services crea un fichero llamado config.php e introduce los datos de la DB:
+
+<?php
+
+define("SERVIDOR","localhost"); 
+define("USUARIO","root"); 
+define("PASSWORD",""); 
+define("BD","bd_restaurant");
 ```
 
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
+_Importar la base de datos_
+```
+Importa la base de datos del repositorio a tu PhpMyAdmin, recuerda tener activados los servicios Apache y MySQL de XAMPP
+```
+
 
 ## Ejecutando las pruebas ⚙️
 
@@ -67,9 +78,8 @@ _Agrega notas adicionales sobre como hacer deploy_
 
 _Menciona las herramientas que utilizaste para crear tu proyecto_
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
+* [Visual Studio Code](https://code.visualstudio.com/) - El editor de código fuente
+* [XAMPP](https://www.apachefriends.org/es/index.html) - Servidor web Apache y gestor de base de datos.
 
 ## Contribuyendo 🖇️
 
@@ -81,14 +91,15 @@ Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](ht
 
 ## Versionado 📌
 
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
+0.1.95
 
 ## Autores ✒️
 
 _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
-* **Andrés Villanueva** - *Trabajo Inicial* - [dannylarrea](https://github.com/dannylarrea)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
+* **Iván Aguinaga** - *Trabajo Inicial* - [ivnaguinaga](https://github.com/ivnaguinaga)
+* **Arnau Balart** - *Trabajo Inicial* - [arnaubalart](https://github.com/arnaubalart)
+* **David Ortega** - *Trabajo Inicial* - [DaveOC45](https://github.com/DaveOC45)
 
 También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
 
