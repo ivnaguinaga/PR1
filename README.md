@@ -49,30 +49,11 @@ _Importar la base de datos_
 Importa la base de datos del repositorio a tu PhpMyAdmin, recuerda tener activados los servicios Apache y MySQL de XAMPP
 ```
 
-
-## Ejecutando las pruebas ⚙️
-
-_Explica como ejecutar las pruebas automatizadas para este sistema_
-
-### Analice las pruebas end-to-end 🔩
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-### Y las pruebas de estilo de codificación ⌨️
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
 ## Despliegue 📦
 
-_Agrega notas adicionales sobre como hacer deploy_
+Puedes probarla en [Infinity Web Host](http://pr1ivan.infinityfreeapp.com/)
+
+Utiliza el usuario de prueba para loggear "David" y la contraseña "qweQWE123"
 
 ## Construido con 🛠️
 
@@ -83,11 +64,11 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 
 ## Contribuyendo 🖇️
 
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
+Por favor lee el [CONTRIBUTING.md](https://gist.github.com/ivnaguinaga) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
 
 ## Wiki 📖
 
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
+Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/ivnaguinaga/PR1/wiki)
 
 ## Versionado 📌
 
@@ -101,7 +82,7 @@ _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios
 * **Arnau Balart** - *Trabajo Inicial* - [arnaubalart](https://github.com/arnaubalart)
 * **David Ortega** - *Trabajo Inicial* - [DaveOC45](https://github.com/DaveOC45)
 
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
+También puedes mirar la lista de todos los [contribuyentes](https://github.com/dannylarrea/CONDE-DOCKU21/graphs/contributors) quíenes han participado en este proyecto. 
 
 ## Licencia 📄
 
